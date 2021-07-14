@@ -1,12 +1,6 @@
-export default function Post({post}){
+export default function todos(){
     console.log(post)
-    return <div> {
-            post?.map(pt => (
-                <div key={pt.id}>
-                    {pt.title}
-                </div>
-            ))
-        } 
+    return <div> 
         </div>
 }
 
